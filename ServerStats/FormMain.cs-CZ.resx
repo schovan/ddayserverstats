@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="tabPageSummary.Text" xml:space="preserve">
+    <value>Celkem</value>
+  </data>
+  <data name="tabPageKills.Text" xml:space="preserve">
+    <value>Zabití</value>
+  </data>
+  <data name="tabPageDeaths.Text" xml:space="preserve">
+    <value>Smrti</value>
+  </data>
+  <data name="tabPageSuicides.Text" xml:space="preserve">
+    <value>Sebevraždy</value>
+  </data>
+  <data name="tabPagePoints.Text" xml:space="preserve">
+    <value>Body</value>
+  </data>
+  <data name="tabPageWords.Text" xml:space="preserve">
+    <value>Slova</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 20</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Soubor</value>
+  </data>
+  <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Otevřít</value>
+  </data>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Konec</value>
+  </data>
+  <data name="sqlToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAZRJREFUOE+lUy1v
+        wzAU7C+pCoemwqHKsNCwqDPbYGCgYaFhoWHgg2UzHDQcNBw0HHu7cxat2dZV0yydVCW5D997XSz+e1wf
+        9S+wXdSZJ8ntvKnWWrW+Vi3A7OAd3/Os1ua7AEnpOak/eE0p4XduH8ekGk6qfhghKf8sUErR9c26JYhD
+        VDklrUwEFIQhcvlFIL8UtdYqhbqu0yijQEAEf/xASJcT5Jw1RpS5cxpCBFGQpOAZcCx4ljUcsnoP9Akm
+        wGNSByxYYsLdLMjOOe16PwqAjDpAnvfJZM5lNcbDUEYBQWRG93CnSDhCAM6JBR4+J9I6QeF2B3fHxBDY
+        97HGQRrZH4ignQ8ttkiFMNrDmcjsy1hp17AtARZjebepnO/ydlMn8M4yQKDPLTJdSVwZ0fVW2v2t/bJU
+        5xvGwmLEWFuJBclYYG7OjezkigDansjGOrjPwfh2G+ZbeZ6ATpMzyc5xP0QTRs6JmW1sk7j4X+ScGds6
+        3H1rsQNeWaCcBER7XeD+4Snud1I5qhYXhTGyIeBs7rqGd2FPHmTD9TpOAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="databaseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Databáze</value>
+  </data>
+  <data name="updateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 22</value>
+  </data>
+  <data name="updateToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Aktualizovat</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 20</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Možnosti</value>
+  </data>
+  <data name="languageToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 22</value>
+  </data>
+  <data name="languageToolStripMenuItem1.Text" xml:space="preserve">
+    <value>&amp;Jazyk</value>
+  </data>
+  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="englishToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Anglický</value>
+  </data>
+  <data name="czechToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="czechToolStripMenuItem.Text" xml:space="preserve">
+    <value>Če&amp;ský</value>
+  </data>
+  <data name="preferencesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 22</value>
+  </data>
+  <data name="preferencesToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Nastavení</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 20</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Nápověda</value>
+  </data>
+  <data name="indexToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Manuál</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;O aplikaci</value>
+  </data>
+  <data name="toolStripButton1.ToolTipText" xml:space="preserve">
+    <value>Otevřít log soubor</value>
+  </data>
+  <data name="toolStripButton2.ToolTipText" xml:space="preserve">
+    <value>Exportovat do txt souboru</value>
+  </data>
+  <data name="toolStripButton3.ToolTipText" xml:space="preserve">
+    <value>Exportovat do html souboru</value>
+  </data>
+  <data name="toolStripButton4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAZVJREFUOE+lUy1v
+        wzAU7N8oK5yGCieVGBYallQz22BgoGGhYaFh4INlMxw0HDQcNBx7u3MWrdnWVdMsnVQluQ/fe10s/ntc
+        H/UvsF3UmSfJ7byp1lq1vlYtwOzgHd/zrNbmuwBJ6TmpP3hNKeF3bh/HpBpOqn4YISn/LFBK0fXNuiWI
+        Q1Q5Ja1MBBSEIXL5RSC/FLXWKoW6rtMoo0BABH/8QEiXE+ScNUaUuXMaQgRRkKTgGXAseJY1HLJ6D/QJ
+        JsBjUgcsWGLC3SzIzjntej8KgIw6QJ73yWTOZTXGw1BGAUFkRvdwp0g4QgDOiQUePifSOkHhdgd3x8QQ
+        2PexxkEa2R+IoJ0PLbZIhTDaw5nI7MtYadewLQEWY3m3qZzv8nZTJ/DOMkCgzy0yXUlcGdH1Vtr9rf2y
+        VOcbxsJixFhbiQXJWGBuzo3s5IoA2p7Ixjq4z8H4dhvmW3megE6TM8nOcT9EE0bOiZltbJO4+F/knBnb
+        Otx9a7EDXlmgnAREe13g/uEp7ndSOaoWF4UxsiHgbO66hncfDR425t032wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton4.ToolTipText" xml:space="preserve">
+    <value>Exportovat do sql souboru</value>
+  </data>
+  <data name="toolStripButton8.ToolTipText" xml:space="preserve">
+    <value>Aktualizovat databázi</value>
+  </data>
+  <data name="toolStripButton7.ToolTipText" xml:space="preserve">
+    <value>Nastavení</value>
+  </data>
+  <data name="toolStripButton5.ToolTipText" xml:space="preserve">
+    <value>Manuál</value>
+  </data>
+  <data name="toolStripButton6.ToolTipText" xml:space="preserve">
+    <value>O aplikaci</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAAAAACoDAAAFgAAACgAAAAgAAAAQAAAAAEAGAAAAAAAgAwAAAAAAAAAAAAAAAAAAAAA
+        AAAIHBgIHBgIHBgIHBgQICEQICEQHBgQHBgQHBgQHBgQHBgQHBgQHBgQHBgQHBgQHBgQHBgQHBgQHBgQ
+        HBgQHBgQHBgQHBgQHBgQHBgQHBgQHBgIHBgIHBgIHBgIHBgIHBgIHBgYODkYODkYODkYODkYODkYODkY
+        ODkYODkYODkYODkYODkYODkYODkYODkYODkYODkYODkYODkYODkYODkYODkYODkYODkYODkYODkYODkY
+        ODkYODkYODkYODkIHBgIHBgYMDEYMDEYNDEYPDkhRUIhTUopVVIxSUopTUopVVopVVIpUVIhSUohQUIY
+        ODkhQUIhRUIpTVIpWVopUVIhSUIhODkxWVIpWVopUVIhSUIhPEIYNDkYMDEQKCkIHBgIHBgYNDEYODkY
+        PDkYPDkhSUIhUVIpWVIhSUIABAAQLCkpWVoxYVopWVIhTUohSUIhSUopUVIpVVopTUoYODkAAAAQJCkp
+        UVIpWVopUVIhTUohRUIYODkYMDEYMDEIHBgQICEYODkhQUIhQTkhQUIhTUopVVIpXVopUVIABAAAAAAQ
+        HBgpVVIxYWMpVVopVVIpVVIpWVopUVIYMDEAAAAAAAAYODkpWVopWVopVVIhTUohRUIYODkYMDEYNDEI
+        HBgQICEYODkhRUIhSUIhSUopUUopVVIpXVopVVIIGBgAAAAAAAAIEAghTUopXWMxXWMxXVohTUoQKCkA
+        AAAAAAAAAAApTUoxYWMpWVopVVIpUVIhRUIYODkYNDEYODkQICEQICEYODkhRUIhSUIhTUopUUopVVIp
+        WVoxXVohPEIAAAAAAAAAAAAABAAhQUIpWVohTUoQHBgAAAAAAAAAAAAQHBgpVVIxYWMpWVopVVIhTUoh
+        RUIYODkYMDEYPDkQICEQICEhQUIhRUIhSUIhTUopUVIpVVIpWVoxYWMpUUoAAAAAAAAAAAAAAAAAAAAY
+        ODkQICEAAAAAAAAAAAAAAAAhTUopXVopXVopWVopVVIhTUohRUIYPDkYNDEYPDkQICEQICEhQUIhQUIh
+        SUohTUohUUopVVIpWVoxXVopVVoIGBgAAAAAAAAAAAAACAgAAAAAAAAABAAAAAAAAAAABAApTUoxYWMp
+        XVopWVopUVIpUUohSUIYQTkYODEhQUIQICEQJCEhRUIhQUIhRUIhSUohTUopUVIpWVIpXVoxXWMhPDkA
+        AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYNDEpWVoxYWMpXVopWVopVVIpUVIpTUohQUIYODkhRUIQ
+        JCEQKCkhSUohQUIhQUIhSUIhSUopUVIpVVIpXVoxYWMpUVIABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAApTUoxYWMxYWMxXWMpWVopVVopUVIhTUohRUIYPDkhRUIQKCkQKCkhSUohQUIhQUIhRUIhSUopUVIp
+        WVIpXVoxZWMpUUoIEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhQUIpXVoxZWMxYWMpXVopWVopVVIp
+        UVIhRUohQUIhSUoQKCkQKCkhSUohQUIhRUIhSUopTUopVVIpXVoxYWMpUUoYODEABAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAYODkpWVoxZWMxYWMpXWMpWVopUVIhTUohQUIhSUoQKCkQKCkhSUohRUIh
+        SUopUVIpVVIpXVoxXVopTUoQKCEAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAQKCkp
+        VVIxZWMxYWMpYVopVVopTVIhRUIhSUoQKCkQKCkhSUohRUIhTUopVVIxXVopXVohTUoIHBgAAAAAAAAA
+        BAAABAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAIHBgpUUoxYWMxYWMpWVopUVIhSUohSUoQ
+        KCkQKCkhSUohRUIpTUopVVIxXVopUUoIGBgACAgAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAACAgA
+        BAAAAAAAAAAAAAAAAAAhODkxXVopXVopVVIpUUohSUohSUoQKCkQKCkhSUohRUIhSUopUVIpWVIxWVop
+        UVIhSUohQUIhSUIhSUohODkABAAAAAAAAAAAAAAAAAAhPDkhTUohSUopUVIpWVIpWVIpWVopWVopWVIp
+        VVIpTUohSUohSUoQKCkQJCEhSUohQUIhRUIhSUohTVIpUVIpVVIpVVIpVVIpWVopXWMxXVoQJCEAAAAA
+        AAAAAAAQICEpVVIxXVopXVopWVopVVIpVVIpVVIpVVIpUUohTUohSUohSUIhSUoQJCEQJCEhSUohPEIh
+        QUIhRUIhSUohTUopUVIpUVIpVVIpWVopXVoxYWMhQUIAAAAAAAAAAAAhPDkxXVopXVopXVopWVopVVop
+        VVIpUVIhUVIhTUohSUohSUohSUIhSUoQMDEQKCEhSUohPDkYPDkhRUIhRUIhSUopTUopUVIpVVIpWVIx
+        WVoxYWMpVVoACAgAAAAABAApUVIpXVopXVopXVopWVopWVIpVVIpUVIhTUohTUohSUohSUIhRUIhSUoQ
+        MDEQKCkhSUohPEIYPDkhQUIhRUIhSUohTUopTUopUVIpVVIpWVoxYVoxXVoQJCEAAAAQJCEpVVIxXVop
+        XVopXVopWVopVVopVVIpUVIhUVIpTUohTUohSUohRUIhSUoQMDEQLCkhSUohPDkYPDkhQTkhRUIhSUIh
+        RUohSUopTUopVVIpWVoxYWMxYWMhQUIIDBAhSUoxXVoxXVopXVopXVopWVopWVIpVVIhUVIpTUopTUoh
+        TUohSUohRUIhSUoQMDEQLCkhSUoYPDkhPDkhQTkhRUIhRUIhRUIhRUIhSUopTUopVVIpWVoxYWMpWVIh
+        SUopVVIpWVopWVopVVIpWVIpVVIhVVIhUUohTUohTUopTUohTUohSUohRUIhTUoQMDEQLCkhSUoYNDEI
+        EAgIEBAIGBgYNDEhQUIhRUIhRUIhSUopUUohRUIIFBAIFBAQHBgYODkpUVIIFBAYPDkpTVIhUUohRUII
+        EBAhPDkhTUohPDkQICEhSUohQUIhTUohODkQMDEhSUoYMDEACAgYNDEIGBgAAAAYMCkhRUIhRUIhRUIp
+        SUoYPDkAAAAYPDkQICEAAAAYODkQLCkIEBAYODkYODEQICEACAghTUohSUoYODEIEBAhSUohQUIhTUoh
+        ODkYMDEhSUoYMCkIDAgpSUohTUoIHBgIGBAhQTkhQUIhRUIhSUIYODEAAAApVVIpVVIIGBgQIBghSUoA
+        AAAADAgIEBAAAAAQJCEhSUohSUoYMDEADAghSUohRUIpUUohODkYMCkhTUoYMCkADAgpSUohTUoQKCEA
+        CAAhODkIEBAIEBAIEBAYNDEAAAApTUopUUoQKCEABAApTUoIGBgQKCkpTVIAAAAhPDkhSUIhSUoADAgA
+        AAAYMDEhRUIpUUohODkQLCkpUVIYMDEADAgpSUohTUoIHBgACAghODkhQTkhQUIhRUIYNDEAAAApSUoh
+        TUoIHBgACAghSUoYMDEACAgIHBgIFBAhSUIhRUIQKCkABAAQJCEABAAhQUIpUVIhODkQLCkpWVoYNDEA
+        CAgYNDEIHBgAAAAIHBghODkhPDkhQTkhQTkYMCkAAAAYNDEQHBgABAAQHBghSUIhSUIACAgABAAYMCkh
+        SUIhPDkABAAQKCkhRUIIFBAIFBApVVIhRUIhODkxYWMYODEIFBAIFBAADAgQJCEYODEhODkhODkhPDkh
+        QTkYODEIGBAIEBAIEBAQJCEhRUIhRUIhQUIQKCkQICEhRUIhRUIQICEIGBghQUIYODkYMDEIFBAxYWMh
+        SUohODlCgnsxYWMxYWMpUVIhSUohRUIhRUIhRUIhSUIhSUIhTUopUUopVVIpVVIpVVIpVVIpVVIpVVIp
+        VVIpUVIhSUohSUohSUohSUohSUohTUopVVIpXVoxYWNCgnshSUoxYWMhSUohSUohQUIhQUIhQUIhODkh
+        ODkhODkYNDEYNDEYNDEYNDEYNDEYNDEYNDEYNDEYNDEYNDEYNDEYNDEYNDEYNDEYNDEhODkhODkhODkh
+        QUIhQUIhQUIhSUoxYWMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>D-Day Normandy Server Statistiky</value>
+  </data>
+</root>

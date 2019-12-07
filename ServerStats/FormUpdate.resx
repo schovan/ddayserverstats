@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonCancelUpdating.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 81</value>
+  </data>
+  <data name="buttonCancelUpdating.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonCancelUpdating.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="buttonCancelUpdating.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;buttonCancelUpdating.Name" xml:space="preserve">
+    <value>buttonCancelUpdating</value>
+  </data>
+  <data name="&gt;&gt;buttonCancelUpdating.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonCancelUpdating.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonCancelUpdating.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelUpdating.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelUpdating.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 35</value>
+  </data>
+  <data name="labelUpdating.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 13</value>
+  </data>
+  <data name="labelUpdating.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelUpdating.Text" xml:space="preserve">
+    <value>Updating database</value>
+  </data>
+  <data name="&gt;&gt;labelUpdating.Name" xml:space="preserve">
+    <value>labelUpdating</value>
+  </data>
+  <data name="&gt;&gt;labelUpdating.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelUpdating.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelUpdating.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelDots.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelDots.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="labelDots.Location" type="System.Drawing.Point, System.Drawing">
+    <value>148, 26</value>
+  </data>
+  <data name="labelDots.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 25</value>
+  </data>
+  <data name="labelDots.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelDots.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;labelDots.Name" xml:space="preserve">
+    <value>labelDots</value>
+  </data>
+  <data name="&gt;&gt;labelDots.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelDots.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelDots.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>412, 117</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAAAAACoDAAAFgAAACgAAAAgAAAAQAAAAAEAGAAAAAAAgAwAAAAAAAAAAAAAAAAAAAAA
+        AAAIHBgIHBgIHBgIHBgQICEQICEQHBgQHBgQHBgQHBgQHBgQHBgQHBgQHBgQHBgQHBgQHBgQHBgQHBgQ
+        HBgQHBgQHBgQHBgQHBgQHBgQHBgQHBgIHBgIHBgIHBgIHBgIHBgIHBgYODkYODkYODkYODkYODkYODkY
+        ODkYODkYODkYODkYODkYODkYODkYODkYODkYODkYODkYODkYODkYODkYODkYODkYODkYODkYODkYODkY
+        ODkYODkYODkYODkIHBgIHBgYMDEYMDEYNDEYPDkhRUIhTUopVVIxSUopTUopVVopVVIpUVIhSUohQUIY
+        ODkhQUIhRUIpTVIpWVopUVIhSUIhODkxWVIpWVopUVIhSUIhPEIYNDkYMDEQKCkIHBgIHBgYNDEYODkY
+        PDkYPDkhSUIhUVIpWVIhSUIABAAQLCkpWVoxYVopWVIhTUohSUIhSUopUVIpVVopTUoYODkAAAAQJCkp
+        UVIpWVopUVIhTUohRUIYODkYMDEYMDEIHBgQICEYODkhQUIhQTkhQUIhTUopVVIpXVopUVIABAAAAAAQ
+        HBgpVVIxYWMpVVopVVIpVVIpWVopUVIYMDEAAAAAAAAYODkpWVopWVopVVIhTUohRUIYODkYMDEYNDEI
+        HBgQICEYODkhRUIhSUIhSUopUUopVVIpXVopVVIIGBgAAAAAAAAIEAghTUopXWMxXWMxXVohTUoQKCkA
+        AAAAAAAAAAApTUoxYWMpWVopVVIpUVIhRUIYODkYNDEYODkQICEQICEYODkhRUIhSUIhTUopUUopVVIp
+        WVoxXVohPEIAAAAAAAAAAAAABAAhQUIpWVohTUoQHBgAAAAAAAAAAAAQHBgpVVIxYWMpWVopVVIhTUoh
+        RUIYODkYMDEYPDkQICEQICEhQUIhRUIhSUIhTUopUVIpVVIpWVoxYWMpUUoAAAAAAAAAAAAAAAAAAAAY
+        ODkQICEAAAAAAAAAAAAAAAAhTUopXVopXVopWVopVVIhTUohRUIYPDkYNDEYPDkQICEQICEhQUIhQUIh
+        SUohTUohUUopVVIpWVoxXVopVVoIGBgAAAAAAAAAAAAACAgAAAAAAAAABAAAAAAAAAAABAApTUoxYWMp
+        XVopWVopUVIpUUohSUIYQTkYODEhQUIQICEQJCEhRUIhQUIhRUIhSUohTUopUVIpWVIpXVoxXWMhPDkA
+        AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYNDEpWVoxYWMpXVopWVopVVIpUVIpTUohQUIYODkhRUIQ
+        JCEQKCkhSUohQUIhQUIhSUIhSUopUVIpVVIpXVoxYWMpUVIABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAApTUoxYWMxYWMxXWMpWVopVVopUVIhTUohRUIYPDkhRUIQKCkQKCkhSUohQUIhQUIhRUIhSUopUVIp
+        WVIpXVoxZWMpUUoIEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhQUIpXVoxZWMxYWMpXVopWVopVVIp
+        UVIhRUohQUIhSUoQKCkQKCkhSUohQUIhRUIhSUopTUopVVIpXVoxYWMpUUoYODEABAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAYODkpWVoxZWMxYWMpXWMpWVopUVIhTUohQUIhSUoQKCkQKCkhSUohRUIh
+        SUopUVIpVVIpXVoxXVopTUoQKCEAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAQKCkp
+        VVIxZWMxYWMpYVopVVopTVIhRUIhSUoQKCkQKCkhSUohRUIhTUopVVIxXVopXVohTUoIHBgAAAAAAAAA
+        BAAABAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAIHBgpUUoxYWMxYWMpWVopUVIhSUohSUoQ
+        KCkQKCkhSUohRUIpTUopVVIxXVopUUoIGBgACAgAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAACAgA
+        BAAAAAAAAAAAAAAAAAAhODkxXVopXVopVVIpUUohSUohSUoQKCkQKCkhSUohRUIhSUopUVIpWVIxWVop
+        UVIhSUohQUIhSUIhSUohODkABAAAAAAAAAAAAAAAAAAhPDkhTUohSUopUVIpWVIpWVIpWVopWVopWVIp
+        VVIpTUohSUohSUoQKCkQJCEhSUohQUIhRUIhSUohTVIpUVIpVVIpVVIpVVIpWVopXWMxXVoQJCEAAAAA
+        AAAAAAAQICEpVVIxXVopXVopWVopVVIpVVIpVVIpVVIpUUohTUohSUohSUIhSUoQJCEQJCEhSUohPEIh
+        QUIhRUIhSUohTUopUVIpUVIpVVIpWVopXVoxYWMhQUIAAAAAAAAAAAAhPDkxXVopXVopXVopWVopVVop
+        VVIpUVIhUVIhTUohSUohSUohSUIhSUoQMDEQKCEhSUohPDkYPDkhRUIhRUIhSUopTUopUVIpVVIpWVIx
+        WVoxYWMpVVoACAgAAAAABAApUVIpXVopXVopXVopWVopWVIpVVIpUVIhTUohTUohSUohSUIhRUIhSUoQ
+        MDEQKCkhSUohPEIYPDkhQUIhRUIhSUohTUopTUopUVIpVVIpWVoxYVoxXVoQJCEAAAAQJCEpVVIxXVop
+        XVopXVopWVopVVopVVIpUVIhUVIpTUohTUohSUohRUIhSUoQMDEQLCkhSUohPDkYPDkhQTkhRUIhSUIh
+        RUohSUopTUopVVIpWVoxYWMxYWMhQUIIDBAhSUoxXVoxXVopXVopXVopWVopWVIpVVIhUVIpTUopTUoh
+        TUohSUohRUIhSUoQMDEQLCkhSUoYPDkhPDkhQTkhRUIhRUIhRUIhRUIhSUopTUopVVIpWVoxYWMpWVIh
+        SUopVVIpWVopWVopVVIpWVIpVVIhVVIhUUohTUohTUopTUohTUohSUohRUIhTUoQMDEQLCkhSUoYNDEI
+        EAgIEBAIGBgYNDEhQUIhRUIhRUIhSUopUUohRUIIFBAIFBAQHBgYODkpUVIIFBAYPDkpTVIhUUohRUII
+        EBAhPDkhTUohPDkQICEhSUohQUIhTUohODkQMDEhSUoYMDEACAgYNDEIGBgAAAAYMCkhRUIhRUIhRUIp
+        SUoYPDkAAAAYPDkQICEAAAAYODkQLCkIEBAYODkYODEQICEACAghTUohSUoYODEIEBAhSUohQUIhTUoh
+        ODkYMDEhSUoYMCkIDAgpSUohTUoIHBgIGBAhQTkhQUIhRUIhSUIYODEAAAApVVIpVVIIGBgQIBghSUoA
+        AAAADAgIEBAAAAAQJCEhSUohSUoYMDEADAghSUohRUIpUUohODkYMCkhTUoYMCkADAgpSUohTUoQKCEA
+        CAAhODkIEBAIEBAIEBAYNDEAAAApTUopUUoQKCEABAApTUoIGBgQKCkpTVIAAAAhPDkhSUIhSUoADAgA
+        AAAYMDEhRUIpUUohODkQLCkpUVIYMDEADAgpSUohTUoIHBgACAghODkhQTkhQUIhRUIYNDEAAAApSUoh
+        TUoIHBgACAghSUoYMDEACAgIHBgIFBAhSUIhRUIQKCkABAAQJCEABAAhQUIpUVIhODkQLCkpWVoYNDEA
+        CAgYNDEIHBgAAAAIHBghODkhPDkhQTkhQTkYMCkAAAAYNDEQHBgABAAQHBghSUIhSUIACAgABAAYMCkh
+        SUIhPDkABAAQKCkhRUIIFBAIFBApVVIhRUIhODkxYWMYODEIFBAIFBAADAgQJCEYODEhODkhODkhPDkh
+        QTkYODEIGBAIEBAIEBAQJCEhRUIhRUIhQUIQKCkQICEhRUIhRUIQICEIGBghQUIYODkYMDEIFBAxYWMh
+        SUohODlCgnsxYWMxYWMpUVIhSUohRUIhRUIhRUIhSUIhSUIhTUopUUopVVIpVVIpVVIpVVIpVVIpVVIp
+        VVIpUVIhSUohSUohSUohSUohSUohTUopVVIpXVoxYWNCgnshSUoxYWMhSUohSUohQUIhQUIhQUIhODkh
+        ODkhODkYNDEYNDEYNDEYNDEYNDEYNDEYNDEYNDEYNDEYNDEYNDEYNDEYNDEYNDEYNDEhODkhODkhODkh
+        QUIhQUIhQUIhSUoxYWMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>D-Day Normandy Server Stats</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormUpdate</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
